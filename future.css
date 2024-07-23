@@ -1,0 +1,84 @@
+*{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page{
+    position: absolute;
+    top: 50px;
+}
+.back img{
+  width: 1500px;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.title{
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.nav{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.nav div{
+    margin: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.content{
+    margin-top: 8%;
+    color: aliceblue;
+    margin-left: 20%;
+}
+.greet{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.front{
+    margin-left: 700px;
+    margin-top: -100px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+}
+.front img{
+    width: 400px;
+    height: 300px;
+    border-radius: 80px;
+}
+.langs{
+    display: flex;
+    flex-direction: row;
+    margin-top: -200px;
+    margin-left: -80px;
+}
+.langs img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.conatact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.conatact img{
+ width: 50px;
+ height: 50px;
+ margin-left: 20px;
+ cursor: pointer;
+ 
+}
